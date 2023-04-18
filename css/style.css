@@ -1,5 +1,10 @@
 /*Rood - #FF6A5D*/
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .btnHome {
   position: relative;
   display: inline-flex;
@@ -45,3 +50,4 @@
 .btnHome a:hover  {
   transform: translateZ(-25px) rotateX(-90deg);
 }
+ 
