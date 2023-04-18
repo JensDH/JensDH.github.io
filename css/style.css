@@ -1,19 +1,6 @@
-/*#FF6A5D*/
+/*Rood - #FF6A5D*/
 
-/*.btn-cv {
-    width: 250px;
-    height: 80px;
-    border: solid 3px white; 
-    font-size: 20px;
-    background-color: transparent;
-}
-
-.btn-cv:hover {
-
-}*/
-
-
-  span{
+  .btnHome {
     position: relative;
     display: inline-flex;
     width: 180px;
@@ -21,7 +8,8 @@
     margin: 0 15px;
     perspective: 1000px;
   }
-  span a{
+
+  .btnHome a {
     font-size: 19px;
     letter-spacing: 1px;
     transform-style: preserve-3d;
@@ -30,10 +18,11 @@
     font-family: 'Montserrat', sans-serif;
     
   }
-  span a:before,
-  span a:after{
+
+  .btnHome a:before,
+  .btnHome a:after{
     position: absolute;
-    content: "BUTTON";
+    content: "About me";
     height: 55px;
     width: 180px;
     display: flex;
@@ -43,15 +32,18 @@
     box-sizing: border-box;
     border-radius: 5px;
   }
-  span a:before{
+
+  .btnHome a:before{
     color: #fff;
     background: #000;
     transform: rotateY(0deg) translateZ(25px);
   }
-  span a:after{
+
+  .btnHome a:after{
     color: #000;
     transform: rotateX(90deg) translateZ(25px);
   }
-  span a:hover{
+
+  .btnHome a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
   }
