@@ -5,6 +5,18 @@
   padding: 0px;
 }
 
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #FF6A5D !important;
+}
+
+.active {
+  color: #FF6A5D !important;
+}
+
 .btnHome {
   position: relative;
   display: inline-flex;
