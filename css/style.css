@@ -51,7 +51,26 @@
   transform: translateZ(-25px) rotateX(-90deg);
 }
 
-.socials-container:hover {
+.bi-linkedin {
+  color: white;
+}
+
+.bi-linkedin:hover {
+  color: #FF6A5D;
+}
+
+.bi-github {
+  color: white;
+}
+
+.bi-github:hover {
   color: #FF6A5D;
 }
  
+.bi-envelope-fill {
+  color: white;
+}
+
+.bi-envelope-fill:hover {
+  color: #FF6A5D;
+}
