@@ -50,4 +50,8 @@
 .btnHome a:hover  {
   transform: translateZ(-25px) rotateX(-90deg);
 }
+
+.socials-container:hover {
+  color: #FF6A5D;
+}
  
