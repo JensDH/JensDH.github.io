@@ -19,11 +19,15 @@
 
 .btn-cards {
   color: white;
-  border: white;
+  border: 1px solid white;
   background-color: transparent;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .btn-cards:hover {
+  color: white;
   background-color: #FF6A5D;
 }
 
