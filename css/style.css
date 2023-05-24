@@ -17,6 +17,16 @@
   color: #FF6A5D !important;
 }
 
+.btn-cards {
+  color: white;
+  border: white;
+  background-color: transparent;
+}
+
+.btn-cards:hover {
+  background-color: #FF6A5D;
+}
+
 .btnHome {
   position: relative;
   display: inline-flex;
