@@ -3,6 +3,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .nav-link {
@@ -75,6 +76,24 @@
 
 .btnHome a:hover  {
   transform: translateZ(-25px) rotateX(-90deg);
+}
+
+.btn-zwart {
+  background-color: transparent;
+  border: solid 1px white;
+  width: 200px;
+  height: 150px;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-rood {
+  background-color: #FF6A5D;
+  border: solid 1px white;
+  width: 200px;
+  height: 150px;
+  color: white;
+  border-radius: 5px;
 }
 
 .bi-linkedin {
